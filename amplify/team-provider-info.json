@@ -1,0 +1,26 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-twistroboticsreact-dev-112504-authRole",
+            "UnauthRoleArn": "arn:aws:iam::396312416251:role/amplify-twistroboticsreact-dev-112504-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::396312416251:role/amplify-twistroboticsreact-dev-112504-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-twistroboticsreact-dev-112504-deployment",
+            "UnauthRoleName": "amplify-twistroboticsreact-dev-112504-unauthRole",
+            "StackName": "amplify-twistroboticsreact-dev-112504",
+            "StackId": "arn:aws:cloudformation:eu-central-1:396312416251:stack/amplify-twistroboticsreact-dev-112504/9ab3cc70-1d4b-11ec-90de-02021ad9177a",
+            "AmplifyAppId": "d1r3txy9i6v68v"
+        },
+        "categories": {
+            "auth": {
+                "twistroboticsreact1ac644a2": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1r3txy9i6v68v",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}
