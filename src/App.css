@@ -13,3 +13,12 @@
 .button-ok {
   margin-right: 10px;
 }
+
+.video {
+  position: relative;
+}
+
+.lines {
+  position: absolute;
+  top: 0;
+}
