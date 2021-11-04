@@ -5,7 +5,8 @@ import { Grid } from '@material-ui/core';
 // import ReactPlayer from 'react-player';
 import videojs from "video.js";
 import "video.js/dist/video-js.css";
-import CanvasVideo from './canvasVideo';
+//import CanvasVideo from './canvasVideo';
+import { Canvas } from './components/canvasDrawing';
 import './App.css';
 
 const App = () => {
@@ -72,7 +73,7 @@ const App = () => {
     setCountNo(newCounter);
     console.log(`Button pressed ${newCounter} times`)
   }
-
+console.log("App render")
   return (
           <Grid container
             direction="column"
@@ -93,20 +94,10 @@ const App = () => {
                       className="video-js"
                     />
                     <div className="lines">
-                      <CanvasVideo canvas_width={canvasProps.width} canvas_height={canvasProps.height} />
+                      <Canvas canvas_width={canvasProps.width} canvas_height={canvasProps.height} />
+                      {/* <CanvasVideo canvas_width={canvasProps.width} canvas_height={canvasProps.height} /> */}
                     </div>
                   </div>
-                  {/* <div className="video">
-                    <ReactPlayer
-                      url="https://s3.eu-central-1.amazonaws.com/video.twistrobotics.com/Canada.mp4"
-                      playing={true}
-                      loop={true}
-                      controls={true}
-                    />
-                    <div className="lines">
-                      <CanvasVideo />
-                    </div>
-                  </div> */}
                 </div>
                 <div className="form-button">
                   <Grid container spacing={3}>
